@@ -20,7 +20,7 @@ Este proyecto es una aplicación interactiva que utiliza `Python` y `Arduino` pa
 Antes de ejecutar el proyecto, asegúrate de tener instaladas las siguientes herramientas:
 
 - [Arduino CLI](https://arduino.github.io/arduino-cli/1.1/installation/)
-- Python 3.13.0
+- Python 3.x
 - Las siguientes bibliotecas de Python:
 
 ```bash

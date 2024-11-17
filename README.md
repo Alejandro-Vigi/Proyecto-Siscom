@@ -20,9 +20,13 @@ Este proyecto es una aplicación interactiva que utiliza `Python` y `Arduino` pa
 Antes de ejecutar el proyecto, asegúrate de tener instaladas las siguientes herramientas:
 
 - [Arduino CLI](https://arduino.github.io/arduino-cli/1.1/installation/)
-- Python 3.x
+- Python 3.13.0
 - Las siguientes bibliotecas de Python:
 
 ```bash
-pip install -r requirements.txt
-
+pip install pyserial 
+pip install matplotlib 
+pip install tkinter
+pip install numpy
+pip install customtkinter
+pip install CTkMenuBar

@@ -520,7 +520,7 @@ def compile_and_upload():
             # Hacer el cuadro de texto editable
             terminal_output.configure(state=tk.NORMAL)
             # Mostrar error
-            terminal_output.insert(tk.END, "Error durante la compilación. Verifique el puerto y la placa.\n")
+            terminal_output.insert(tk.END, "Error durante la compilación. Verifique el puerto y la placa.....\n")
             # Hacer el cuadro de texto editable
             terminal_output.configure(state=tk.DISABLED)
             # Desplazar la vista hacia el final
@@ -586,6 +586,7 @@ def compile_and_upload():
 root = ctk.CTk()
 
 # Configurar el tema del color (dark-blue, o cualquier otro tema disponible)
+ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("dark-blue")
 
 root.title("Visualización de Frecuencia y Espectro")

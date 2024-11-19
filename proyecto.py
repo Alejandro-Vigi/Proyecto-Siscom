@@ -597,7 +597,7 @@ alto = root.winfo_screenheight()
 
 # Definir el tamaño de la ventana
 window_width = 900  # Ancho de la ventana
-window_height = 800  # Alto de la ventana
+window_height = alto-150  # Alto de la ventana
 
 # Calcular las coordenadas para centrar la ventana
 x = (ancho - window_width) // 2
@@ -684,7 +684,7 @@ port_entry3.pack(side="left", padx=10, pady=0)
 port_frame3.pack(pady=(10, 0))
 
 # Crear un frame para organizar los botones horizontalmente
-button_frame = ctk.CTkFrame(root)
+button_frame = ctk.CTkFrame(root, fg_color="#242424")
 
 # Boton para Compilar y Ejecutar en Arduino
 start_button = ctk.CTkButton(button_frame, text="Compilar en Arduino e iniciar comunicación", font=("Helvetica", 15, "bold"), 

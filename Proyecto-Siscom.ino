@@ -33,8 +33,8 @@ const int lede = 2;
 const int ledA = 3;
 const int ledD = 4;
 const int ledG = 5;
-const int ledB = 10;
-const int ledE = 11;
+const int ledB = 12;
+const int ledE = 13;
 
 void setup() {
   // Inicialización del puerto serial para depuración

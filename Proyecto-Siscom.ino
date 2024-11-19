@@ -111,9 +111,20 @@ void loop() {
           lcd.setCursor(15, 0);
           lcd.print("e");
           digitalWrite(lede, HIGH);
-          if (frec_fund < 81) lcd.print("Ajuste: apretar");
-          else if (frec_fund > 83.2) lcd.print("Ajuste: soltar ");
-          else lcd.print("Ajuste: afinada");
+          if (frec_fund < 81){
+            lcd.setCursor(0, 1);
+            lcd.print("Ajuste: apretar");
+            delay(1500);
+          }
+          else if (frec_fund > 83.2) {
+            lcd.setCursor(0, 1);
+            lcd.print("Ajuste: soltar ");
+            delay(1500);
+          }
+          else{
+            lcd.setCursor(0, 1);
+            lcd.print("Ajuste: afinada");
+          }
           delay(1500);
           digitalWrite(lede, LOW);
           lcd.setCursor(15, 0);
@@ -128,9 +139,20 @@ void loop() {
           lcd.setCursor(15, 0);
           lcd.print("A");
           digitalWrite(ledA, HIGH);
-          if (frec_fund < 106) lcd.print("Ajuste: apretar");
-          else if (frec_fund > 114) lcd.print("Ajuste: soltar ");
-          else lcd.print("Ajuste: afinada");
+          if (frec_fund < 106) {
+            lcd.setCursor(0, 1);
+            lcd.print("Ajuste: apretar");
+            delay(1500);
+          }
+          else if (frec_fund > 114){
+            lcd.setCursor(0, 1);
+            lcd.print("Ajuste: soltar ");
+            delay(1500);
+          }
+          else {
+            lcd.setCursor(0, 1);
+            lcd.print("Ajuste: afinada");
+          }
           delay(1500);
           digitalWrite(ledA, LOW);
           lcd.setCursor(15, 0);
@@ -145,9 +167,20 @@ void loop() {
           lcd.setCursor(15, 0);
           lcd.print("D");
           digitalWrite(ledD, HIGH);
-          if (frec_fund < 143.0) lcd.print("Ajuste: apretar");
-          else if (frec_fund > 151.0) lcd.print("Ajuste: soltar ");
-          else lcd.print("Ajuste: afinada");
+          if (frec_fund < 143.0){
+            lcd.setCursor(0, 1);
+            lcd.print("Ajuste: apretar");
+            delay(1500);
+          }
+          else if (frec_fund > 151.0) {
+            lcd.setCursor(0, 1);
+            lcd.print("Ajuste: soltar ");
+            delay(1500);
+          }
+          else {
+            lcd.setCursor(0, 1);
+            lcd.print("Ajuste: afinada");
+          }
           delay(1500);
           digitalWrite(ledD, LOW);
           lcd.setCursor(15, 0);
@@ -162,9 +195,20 @@ void loop() {
           lcd.setCursor(15, 0);
           lcd.print("G");
           digitalWrite(ledG, HIGH);
-          if (frec_fund < 194.00) lcd.print("Ajuste: apretar");
-          else if (frec_fund > 198.0) lcd.print("Ajuste: soltar ");
-          else lcd.print("Ajuste: afinada");
+          if (frec_fund < 194.00){
+            lcd.setCursor(0, 1);
+            lcd.print("Ajuste: apretar");
+            delay(1500);
+          }
+          else if (frec_fund > 198.0){
+            lcd.setCursor(0, 1);
+            lcd.print("Ajuste: soltar ");
+            delay(1500);
+          }
+          else {
+            lcd.setCursor(0, 1);
+            lcd.print("Ajuste: afinada");
+          }
           delay(1500);
           digitalWrite(ledG, LOW);
           lcd.setCursor(15, 0);
@@ -179,9 +223,20 @@ void loop() {
           lcd.setCursor(15, 0);
           lcd.print("B");
           digitalWrite(ledB, HIGH);
-          if (frec_fund < 243.0) lcd.print("Ajuste: apretar");
-          else if (frec_fund > 251.0) lcd.print("Ajuste: soltar ");
-          else lcd.print("Ajuste: afinada");
+          if (frec_fund < 243.0){
+            lcd.setCursor(0, 1);
+            lcd.print("Ajuste: apretar");
+            delay(1500);
+          }
+          else if (frec_fund > 251.0) {
+            lcd.setCursor(0, 1);
+            lcd.print("Ajuste: soltar ");
+            delay(1500);
+          }
+          else {
+            lcd.setCursor(0, 1);
+            lcd.print("Ajuste: afinada");
+          }
           delay(1500);
           digitalWrite(ledB, LOW);
           lcd.setCursor(15, 0);
@@ -196,9 +251,20 @@ void loop() {
           lcd.setCursor(15, 0);
           lcd.print("E");
           digitalWrite(ledE, HIGH);
-          if (frec_fund < 323.5) lcd.print("Ajuste: apretar");
-          else if (frec_fund > 332.0) lcd.print("Ajuste: soltar ");
-          else lcd.print("Ajuste: afinada");
+          if (frec_fund < 323.5){
+            lcd.setCursor(0, 1);
+            lcd.print("Ajuste: apretar");
+            delay(1500);
+          }
+          else if (frec_fund > 332.0){
+            lcd.setCursor(0, 1);
+            lcd.print("Ajuste: soltar ");
+            delay(1500);
+          }
+          else {
+            lcd.setCursor(0, 1);
+            lcd.print("Ajuste: afinada");
+          }
           delay(1500);
           digitalWrite(ledE, LOW);
           lcd.setCursor(15, 0);
